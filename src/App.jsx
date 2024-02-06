@@ -1,5 +1,7 @@
+import ToggleTheme from "./Toggle-theme";
+
 const App = () => {
-  return <div>App</div>;
+  return <ToggleTheme />;
 };
 
 export default App;

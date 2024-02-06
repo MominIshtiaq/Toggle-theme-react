@@ -2,7 +2,7 @@ import { useState } from "react";
 const ToggleTheme = () => {
   const [backgroundColor, setBackgroundColor] = useState("white");
   const [textColor, setTextColor] = useState("#1b1b1b");
-  const [buttonStyle, setButtonStyle] = useState("while");
+  const [buttonStyle, setButtonStyle] = useState("white");
 
   function handleClick() {
     setBackgroundColor(backgroundColor === "white" ? "#1b1b1b" : "white");
